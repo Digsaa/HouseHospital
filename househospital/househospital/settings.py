@@ -99,7 +99,11 @@ WSGI_APPLICATION = 'househospital.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'dfam16puq4u9s0',
+        'USER': 'cmviuguaawhjol',
+        'PASSWORD': '70b82fe10d4ee54494209d312904f148595fee703995950783c3c252e4114d57',
+        'HOST': 'ec2-3-211-6-217.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
